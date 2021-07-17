@@ -1,0 +1,71 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="utf-8">
+    <title>Tone Curve Quiz</title>
+    
+    
+  <script src="core@2"></script>
+  <script src="tippy.js@6"></script>
+    <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/shift-away.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <script src="sweetalert.min.js"></script>
+    <script src="p5.min.js"></script>
+    <script type="text/javascript" src="p5.func.min.js">
+</script>
+    <script type="text/javascript" src="Spline.js"></script>
+    <script type="text/javascript" src="ToneCurve.js">
+</script>
+    <script type="text/javascript" src="ToneCurveGui.js">
+</script>
+     <script type="text/javascript" src="PointsMaker.js">
+</script>
+     <script type="text/javascript" src="LutUtil.js">
+</script>
+    <script type="text/javascript" src="PhotoType.js">
+</script>
+    <script type="text/javascript" src="Button.js">
+</script>
+    <script type="text/javascript" src="ImageCompare.js">
+</script>
+    <script type="text/javascript" src="Ring.js">
+</script>
+    <script type="text/javascript" src="Stamps.js">
+</script>
+    <script type="text/javascript" src="Tutorial.js">
+</script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="loaders.min.css">
+  </head>
+  <body>
+    <script src="ua-parser.min.js"></script>
+    <script>
+        let parser = new UAParser()
+        let result = parser.getResult()
+        let discElement = document.getElementById("link-description")
+        if (result.os.name == "iOS" || result.os.name == "Android"){
+            swal({
+      text: "スマートフォンでは正常に動作しない場合があります",
+         })
+        }
+    </script>
+    
+    <script src="sketch.js"></script>
+<!--     <div class="footer">
+      <p>Photos by <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash</a></p>
+      <p>Icons by <a href="https://icons8.com" target="_blank" rel="noopener noreferrer">Icons8</a></p>
+      <p><a href="#" target="_blank" rel="noopener noreferrer">このウェブサイトについて</a></p>
+      <p>© 2020 Reo Hokazono. All Rights Reserved.</p>
+    </div> -->
+    
+<!--     <script>
+      let footer = document.createElement("div")
+      footer.innerHTML = `<p>Photos by <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash</a></p><p>Icons by <a href="https://icons8.com" target="_blank" rel="noopener noreferrer">Icons8</a></p><p><a href="#" target="_blank" rel="noopener noreferrer">このウェブサイトについて</a></p><p>© 2020 Reo Hokazono. All Rights Reserved.</p>`
+      
+      document.body.appendChild(footer);
+    </script> -->
+    
+  
+
+</body></html>
